@@ -90,3 +90,4 @@ module "kms" {
   source   = "./kms"
   user_arn = "${module.iam.aws_iam_user}"
 }
+
